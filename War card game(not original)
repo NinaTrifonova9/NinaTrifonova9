@@ -1,0 +1,16 @@
+import random
+
+Suits = ('Hearts', 'Diamonds', 'Spades','Clubs')
+Ranks = ( 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine','Ten', 'Jack', 'Queen', 'King', 'Ace')
+Values = { 'Two':2, 'Three':3, 'Four':4,...}
+
+class Card:
+
+   def __init__(self,suit,rank):
+       self.suit = suit
+       self.rank = rank
+       self.value = value[rank]
+   def __str__(self):
+       return self.rank + ' of ' + self.suit
+
+class Deck:
